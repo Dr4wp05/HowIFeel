@@ -1,0 +1,22 @@
+# Backend - Django
+
+back/entorno/
+back/backend/db.sqlite3
+back/backend/__pycache__/
+back/backend/*.pyc
+back/backend/*.log
+back/backend/media/
+back/backend/staticfiles/
+
+# Frontend - Vue + Electron
+
+front/frontend/node_modules/
+front/frontend/dist/
+front/frontend/dist_electron/
+front/frontend/.vscode/
+front/frontend/package-lock.json
+front/frontend/*.log
+front/frontend/.env
+
+# Archivos generales
+*.log
