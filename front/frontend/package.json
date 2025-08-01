@@ -4,6 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "dist": "electron-builder"
+  },
   "build": {
     "appId": "hif",
     "productName": "How I Feel",
@@ -17,20 +24,17 @@
       "target": "nsis"
     }
   },
-  "scripts": {
-    "start": "electron .",
-    "build": "electron-builder",
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.11",
     "vue": "^3.5.17"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.0",
+    "autoprefixer": "^10.4.21",
     "electron": "^37.2.4",
     "electron-builder": "^26.0.12",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.11",
     "vite": "^7.0.4"
   }
 }
