@@ -22,3 +22,5 @@ front/frontend/.env
 
 # Archivos generales
 *.log
+
+node_modules
